@@ -43,7 +43,7 @@ class CalculatorController extends Controller
                 }
                 break;
             default:
-                # code...
+                $error = 'Invalide inut request';
                 break;
         }
 
